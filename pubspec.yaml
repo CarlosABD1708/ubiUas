@@ -1,0 +1,41 @@
+name: ubiuas
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8
+  geolocator: ^9.0.1  # Asegúrate de usar la última versión disponible
+  permission_handler: ^10.0.0
+  speech_to_text: ^7.0.0
+  ar_flutter_plugin: ^0.7.3
+  flutter_archive: ^6.0.3
+  path_provider: ^2.1.5
+  camera: ^0.11.0+2
+  flutter_compass: ^0.7.0
+  ar_flutter_plugin_engine: ^1.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
